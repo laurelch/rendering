@@ -53,6 +53,9 @@ convert row_1.png row_2.png -smush n col.png
 ```
 ffmpeg -framerate 24 -i %04d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
 ```
+```
+C:\ffmpeg\bin\ffmpeg.exe -framerate 24 -i %04d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
+```
 
 - Check size of directory
 ```
