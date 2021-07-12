@@ -48,11 +48,17 @@ convert col_1.png col_2.png +smush n output.png
 ```
 convert row_1.png row_2.png -smush n col.png
 ```
+- Convert EXR sequence files to PNG format
 
+(Windows)
+```
+FOR /R %a IN (*.exr) DO convert "%~a" "%~dpna.png"
+```
 - Convert PNG sequence to MP4 with framerate of 24
 ```
 ffmpeg -framerate 24 -i %04d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
 ```
+(Windows)
 ```
 C:\ffmpeg\bin\ffmpeg.exe -framerate 24 -i %04d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
 ```
