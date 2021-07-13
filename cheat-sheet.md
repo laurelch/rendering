@@ -88,6 +88,11 @@ find /path/ -name filename (-type d)
 
 ## Uncommon Commands
 
+- Renew RenderMan license on Linux, after filling the survey online, without installing newest version
+```
+sudo /opt/pixar/RenderManProServer-<version>/bin/LicenseApp 
+```
+
 - Extract frames from a video
 ```
 ffmpeg -i output.mp4 frames.%04d.png -hide_banner
