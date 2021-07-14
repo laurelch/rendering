@@ -5,7 +5,7 @@
 - _For friends who are curious about my personal experiences._
 ___
 
-This page is about my experiences and stories on rendering in my research work, and content creations as a hobbist and **art lover**. Most commands I use can be found at a rendering [cheat-sheet](cheat-sheet.md) I created.
+This page is about my experiences and stories on rendering in my research work, and content creations as a hobbist and **art lover**.
 
 Although I only did offline rendering in my past work, I am also greatly interested in real-time rendering as a **programmer**, but this page only focuses on offline rendering.
 
