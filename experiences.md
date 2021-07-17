@@ -7,17 +7,17 @@ ___
 
 This page is about my experiences and stories on rendering in my research work, and content creations as a hobbist and **art lover**.
 
-Although I only did offline rendering in my past work, I am also greatly interested in real-time rendering as a **programmer**, but this page only focuses on offline rendering.
+I am also greatly interested in real-time rendering as a **programmer**, but this page only focuses on offline rendering.
 
-I will talk about the tools and pipeline I use, and also about what excites and motivates me. I hope my experiences can help you get started with your journey and keep motivated willingly.
+This talk about all the tools I use, and about what motivates me. I hope my experiences can help you get started with your journey.
 
 I mainly rendered with renderer [Pixar's RenderMan](https://renderman.pixar.com/), which is available with free non-commercial version.
 
 I am also very fond of [Blender](https://www.blender.org/), which is light-weight and open-source. RenderMan 24 now officially supports Blender, but I have not tried it out yet.
 
 ## **Catalog 🎼**
-1. [Pipeline](#pipeline): steps to produce rendering
-2. [Software](#software): 3D softwares I use in the pipeline
+1. [Process](#process): steps to produce rendering
+2. [Software](#software): 3D softwares I use in the process
    - [Maya](#maya) 
    - [RenderMan](#renderman)
    - [Blender](#blender)
@@ -25,8 +25,8 @@ I am also very fond of [Blender](https://www.blender.org/), which is light-weigh
    - (Coming Soon...) [Unity](#unity)
 3. (Coming Soon...) [Resources](#resources): Helpful resources that help me learn, generate interests, or maintain motivation
 
-## **Pipeline 🏗️**
-This is my general rendering pipeline. 
+## **Process 🏗️**
+This is my general rendering process. 
 1. **Modeling**
    1. low-poly modeling
    2. meshing from particles
@@ -43,7 +43,7 @@ This is my general rendering pipeline.
 
 \* = optional, **bold** = important
 ## **Software 💻**
-Please allow me to introduce the softwares or tools that I use in my pipeline, and how I **learnt** them.
+Please allow me to introduce the softwares or tools that I use in my rendering procedure, and how I **learnt** them.
 
 I do not understand every parts of a software well, so I will mention what I use this software for.
 ___
@@ -51,7 +51,7 @@ Side note:
 
     Don't get frightened for all the available softwares out there! 
     
-    Understanding one suitable 3D software may be enough for all steps in the pipeline. 
+    Understanding one suitable 3D software may be enough for all steps in the process. 
     
     You will get comfortable (and even excited!) to explore different tools after you can produce something you have imagined in yourself for years.
 
