@@ -3,6 +3,14 @@
 _Sharing all my experiences in computer graphics & digital content creation_
 ___
 
-Checkout [cheat-sheet](cheat-sheet.md) for commands I used in command-line interface, like prman (RenderMan), convert (ImageMagick), ffmpeg, mitsuba.
+## Bash script
 
-Check how I get started with each software (Maya, RenderMan, Blender, etc) and get inspired: my [experiences](experiences.md).
+- Check out [cheat-sheet](cheat-sheet.md) for commands I used in command-line interface.
+  - Using:  prman (RenderMan), convert (ImageMagick), ffmpeg, mitsuba.
+
+- References: 
+  - Bash scripting cheatsheet: devhints.io/bash
+
+## Content Creation Softwares
+- Check out my [experiences](experiences.md): get inspired by my stories with content creation softwares (Maya, RenderMan, Blender, etc).
+
