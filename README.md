@@ -9,7 +9,7 @@ ___
   - Using:  prman (RenderMan), convert (ImageMagick), ffmpeg, mitsuba.
 
 - References: 
-  - Bash scripting cheatsheet: devhints.io/bash
+  - Bash scripting cheatsheet: [devhints.io/bash](https://devhints.io/bash)
 
 ## Content Creation Softwares
 - Check out my [experiences](experiences.md): get inspired by my stories with content creation softwares (Maya, RenderMan, Blender, etc).
