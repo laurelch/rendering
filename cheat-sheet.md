@@ -49,7 +49,10 @@ convert col_1.png col_2.png +smush n output.png
 convert row_1.png row_2.png -smush n col.png
 ```
 - Convert EXR sequence files to PNG format
-
+```
+(source /path/to/mitsuba/setpath.sh)
+mtsutil tonemap -t *.exr
+```
 (Windows)
 ```
 FOR /R %a IN (*.exr) DO convert "%~a" "%~dpna.png"
