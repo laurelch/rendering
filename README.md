@@ -1,6 +1,6 @@
-# **🐰 Rendering is Awesome❣️**
+# **Rendering Tools and Utilities**
 
-_Sharing all my experiences in computer graphics & digital content creation_
+_Sharing all my experiences in computer graphics & digital content creation_ 🐰
 ___
 
 ## Bash script
