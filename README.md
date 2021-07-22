@@ -1,16 +1,23 @@
 # **Rendering Tools and Utilities**
 
-_Sharing all my experiences in computer graphics & digital content creation_ 🐰
-___
+## Bash Commands
 
-## Bash script
+- Check out [cheat-sheet](cheat-sheet.md) for useful commands:
+  - [Multiplexer](cheat-sheet.md#multiplexer)
+  - [Filename manipulation](cheat-sheet.md#filename-manipulation)
+  - [Post-processing](cheat-sheet.md#post-processing)
+  - [Video](cheat-sheet.md#video)
+  - [Storage](cheat-sheet.md#storage)
+  - [Renew RenderMan on Ubuntu](cheat-sheet.md#renew-renderman)
 
-- Check out [cheat-sheet](cheat-sheet.md) for commands I used in command-line interface.
-  - Using:  prman (RenderMan), convert (ImageMagick), ffmpeg, mitsuba.
-
+## Bash Scripts
+- Check out [bash](bash) folder for useful bash scripts:
+  - [vcrop.sh](bash/vcrop.sh): crop left and right of an image with target width
 - References: 
   - Bash scripting cheatsheet: [devhints.io/bash](https://devhints.io/bash)
 
 ## Content Creation Softwares
-- Check out my [experiences](experiences.md): get inspired by my stories with content creation softwares (Maya, RenderMan, Blender, etc).
-
+- Check out my [experiences](experiences.md): get inspired by my stories with content creation softwares
+  - [Maya](experiences.md#maya-)
+  - [RenderMan](experiences.md#renderman-)
+  - [Blender](experiences.md#blender-)
