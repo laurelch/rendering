@@ -1,11 +1,11 @@
 # Rendering Cheatsheet
 ## Contents
-- [Multiplexer](#multiplexer)
-- [Filename Manipulation](#filename-manipulation)
-- [Post-processing](#post-processing)
-- [Video](#video)
-- [Storage](#storage)
-- [Renew RenderMan](#renew-renderman)
+- [Multiplexer](#multiplexer): peform long-running task on a remote machine
+- [Filename Manipulation](#filename-manipulation): batch edit filenames
+- [Post-processing](#post-processing): convert EXR to PNG, crop files
+- [Video](#video): convert PNG sequence to video
+- [Storage](#storage): check storage status and file sizes
+- [Renew RenderMan](#renew-renderman): renew RenderMan on Ubuntu
 
 ## Multiplexer
 - Use $ screen to keep command running in background
