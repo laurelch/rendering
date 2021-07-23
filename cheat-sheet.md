@@ -23,7 +23,7 @@
     ```
   - Exit current session
     ```
-    // ctrl+A+D
+    Ctrl + A + D
     ```
 ## Filename Manipulation
 
@@ -44,12 +44,18 @@ for f in *.png; do mv "$f" "${f#PRE_}"; done;
 ```
 
 ## Post-processing
-- Convert EXR sequence files to PNG format
+- Source mitsuba configuration file
 ```
-(source /path/to/mitsuba/setpath.sh)
+source /path/to/mitsuba/setpath.sh
+```
+- Convert EXR sequence files to PNG format
+
+Note: source the setpath.sh file if $mtsutil command does not exist.
+
+```
 mtsutil tonemap -t *.exr
 ```
-(Windows)
+_Windows_
 ```
 FOR /R %a IN (*.exr) DO convert "%~a" "%~dpna.png"
 ```
@@ -79,7 +85,7 @@ convert row_1.png row_2.png -smush n col.png
 ```
 ffmpeg -framerate 24 -i %04d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
 ```
-(Windows)
+_Windows_
 ```
 C:\ffmpeg\bin\ffmpeg.exe -framerate 24 -i %04d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
 ```
@@ -115,9 +121,18 @@ du -hs /path/to/directory
 du -hs * | sort -h
 ```
 
-- Find a file (or directory)
+- Find a file
 ```
-find /path/ -name filename (-type d)
+find /path/to/find -name <filename>
+```
+- Find a directory
+```
+find /path/to/find -name <directory-name> -type d
+```
+
+- Delete all EXR files
+```
+find . -name '*.exr' -delete
 ```
 
 ## Renew RenderMan
