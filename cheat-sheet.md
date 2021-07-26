@@ -85,6 +85,10 @@ convert row_1.png row_2.png -smush n col.png
 ```
 ffmpeg -framerate 24 -i %04d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
 ```
+Set starting frame to be 10
+```
+ffmpeg -framerate 24 -start_number 10 -i %04d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
+```
 _Windows_
 ```
 C:\ffmpeg\bin\ffmpeg.exe -framerate 24 -i %04d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
