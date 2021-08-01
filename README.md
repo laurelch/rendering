@@ -13,6 +13,9 @@
 Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat** files for Windows):
   - [ccrop.sh](bash/ccrop.sh): crop with target center, and target width and height
   - [convert.bat](bash/convert.bat): batch convert EXR files to PNG files
+  - [deleteLines.sh](bash/deleteLines.sh): delete lines in (RIB) files with line numbers and from the file end
+  - [makeVideo.sh](bash/makeVideo.sh): make video for a given folder with given name
+  - [replace.sh](bash/replace.sh): replace strings for all (RIB) files in a folder
   - [vcrop.sh](bash/vcrop.sh): crop left and right of an image with target width
 
 ## Content Creation Softwares

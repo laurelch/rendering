@@ -38,11 +38,10 @@ ls | xargs -I {} mv {} PRE_{}
 ls | xargs -I {} mv {} {}_SUF
 ```
 
-- Remove prefix (PNG files)
+- Remove prefix (for PNG files)
 ```
-for f in *.png; do mv "$f" "${f#PRE_}"; done;
+for f in *.png; do mv "$f" "${f#PREFIX_}"; done;
 ```
-
 ## Post-processing
 - Source mitsuba configuration file
 ```
