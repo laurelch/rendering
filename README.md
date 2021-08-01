@@ -29,11 +29,11 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
 
 - To install Maya on **Ubuntu**, check this [install guide](maya-install-ubuntu.md)
 
-### Others
+<!-- ### Others
 - Check out my [experiences](experiences.md): get inspired by my stories with content creation softwares
   - [Maya](experiences.md#maya-)
   - [RenderMan](experiences.md#renderman-)
-  - [Blender](experiences.md#blender-)
+  - [Blender](experiences.md#blender-) -->
 
 ## References: 
   - Bash scripting cheatsheet: [devhints.io/bash](https://devhints.io/bash)
