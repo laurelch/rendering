@@ -9,6 +9,7 @@
     - install Maya on Ubuntu [guide](maya-install-ubuntu.md)
   - [Blender](#blender)
   - [RenderMan](#renderman)
+  - [Houdini](#houdini)
 - [References](#references): Other useful resources
 
 
@@ -36,7 +37,7 @@
 - General Process Description
   1. **Modeling**
      - low-poly modeling
-     - meshing from particles
+     - meshing from particles, with [Houdini](#houdini)
      - find free 3D models at [turbosquid](https://www.turbosquid.com/), [sketchfab](https://sketchfab.com/feed)
      - find and follow tutorial for 3D modeling
   2. UV Editing *(optional)*
@@ -101,11 +102,18 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
 - Free non-commercial license available, renews every 3 months
 - Download at https://renderman.pixar.com/store
 - Recommended tutorial:
-  - [RenderMan Docs](https://rmanwiki.pixar.com/display/REN24/RenderMan): Official RenderMan Docs, installation guides, plugins guides
+  - [RenderMan Docs](https://rmanwiki.pixar.com/display/REN24/RenderMan): official RenderMan Docs, installation guides, plugins guides
   - [Learn RenderMan](https://renderman.pixar.com/learn): official RenderMan learning resources
   - [Small Robot Studio](https://www.youtube.com/channel/UCvRPmhwzn2pFdLes0vcTeJQ) @YouTube: learn specific RenderMan shading features
 
-<!-- ### Others
+### Houdini
+- Procedural generation software, commonly used for visual effects
+- Many versions, including free and indie version, avaialble at https://www.sidefx.com/buy/
+- Recommended tutorial:
+  - [Learning Houdini](https://www.sidefx.com/learn/getting_started/): official SideFX get started tutorial
+- Check out how I use houdini for [meshing](houdini-particles-to-mesh.md)
+
+<!-- TODO: ### Others
 - Check out my [experiences](experiences.md): get inspired by my stories with content creation softwares
   - [Maya](experiences.md#maya-)
   - [RenderMan](experiences.md#renderman-)
@@ -115,3 +123,12 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
   - Bash scripting cheatsheet: [devhints.io/bash](https://devhints.io/bash)
   - Python for Maya commands: [Docs (2017 version)](https://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/CommandsPython)
   - Udemy: 3D and Animation [courses](https://www.udemy.com/courses/design/3d-and-animation/), high-quality with regular discounts
+
+<!-- TODO: Q&A
+One question: I currently have windows 10, should I download Ubuntu or is it ok to do everything in windows?
+
+Answer:General speaking you can do everything with your own machine, and you should get started with your own machine. 
+Only when you need to render for paper submission, since rendering is a time-consuming and heavy work, it is better to utilize lab machines (Ubuntu) to avoid crash on your own machine or disturbing your other works. 
+We can talk more on the details about how to transfer your work to lab machines later.
+-->
+
