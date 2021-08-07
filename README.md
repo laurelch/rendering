@@ -1,17 +1,17 @@
 # **Rendering Tools and Utilities**
 ## Contents
-- [Get Started](#get-started): Introduction to softwares, tools, and general rendering process
-- [Bash Commands](#bash-commands): Commonly used bash commands
-- [Bash Scripts](#bash-scripts): Commonly used bash scripts that takes inputs
-- [Content Creation Softwares](#content-creation-softwares): Download and recommended tutorials
+- [Get Started](#get-started): introduction to softwares, tools, and general rendering process
+- [Bash Commands](#bash-commands): commonly used bash commands
+- [Bash Scripts](#bash-scripts): commonly used bash scripts that takes inputs
+- [Content Creation Softwares](#content-creation-softwares): download and recommended tutorials
   - [Maya](#maya):
     - Python for Maya [cheat-sheet](py-maya-cheat-sheet.md)
     - install Maya on Ubuntu [guide](maya-install-ubuntu.md)
   - [Blender](#blender)
   - [RenderMan](#renderman)
   - [Houdini](#houdini)
-- [References](#references): Other useful resources
-
+- [Resources](#resources): other useful resources
+- [Papers](#papers): papers using this rendering process 
 
 ## Get Started
 - Softwares or tools recommended:
@@ -119,11 +119,26 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
   - [RenderMan](experiences.md#renderman-)
   - [Blender](experiences.md#blender-) -->
 
-## References: 
-  - Bash scripting cheatsheet: [devhints.io/bash](https://devhints.io/bash)
-  - Python for Maya commands: [Docs (2017 version)](https://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/CommandsPython)
-  - Udemy: 3D and Animation [courses](https://www.udemy.com/courses/design/3d-and-animation/), high-quality with regular discounts
+## Resources 
+- Bash scripting cheatsheet: [devhints.io/bash](https://devhints.io/bash)
+- Python for Maya commands: [Docs (2017 version)](https://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/CommandsPython)
+- Udemy: 3D and Animation [courses](https://www.udemy.com/courses/design/3d-and-animation/), high-quality with regular discounts
 
+## Papers
+Papers using the rendering process, latest paper first
+- **A Unified Second-Order Accurate in Time MPM Formulation for Simulating Viscoelastic Liquids with Phase Change**
+  <br> Haozhe Su*, Tao Xue*, Chengguizi Han, Chenfanfu Jiang and Mridul Aanjaneya (*Joint first authors)
+  <br> _ACM Transactions on Graphics_, (SIGGRAPH proceedings), 40, 4, 119:1-18, (2021)
+  <br> [SIGGRAPH Technical Papers Video Trailer, 2:44](https://youtu.be/Ros7ZXqLbFg?t=164)
+- **A Novel Discretization and Numerical Solver for Non-Fourier Diffusion**
+  <br> Tao Xue*, Haozhe Su*, Chengguizi Han, Chenfanfu Jiang and Mridul Aanjaneya (*Joint first authors)
+  <br> _ACM Transactions on Graphics_, (SIGGRAPH Asia proceedings), 39, 6, 178:1-14, (2020)
+- **A First Principles Approach for Data-Efficient System Identification of Spring-Rod Systems via Differentiable Physics Engines**
+   <br> Kun Wang, Mridul Aanjaneya and Kostas Bekris
+   <br> _Proceedings of Machine Learning Research_, (2nd Annual Conference on Learning for Dynamics and Control), 120:1-15, (2020)
+- **An Efficient Geometric Multigrid Solver for Viscous Liquids**
+  <br> Mridul Aanjaneya*, Chengguizi Han, Ryan Goldade and Christopher Batty (*Lead and supervising author)
+  <br> _Proceedings of the ACM in Computer Graphics and Interactive Techniques_, (SCA proceedings), 2, 2, 14:1-21, (2019)
 <!-- TODO: Q&A
 One question: I currently have windows 10, should I download Ubuntu or is it ok to do everything in windows?
 
@@ -131,4 +146,3 @@ Answer:General speaking you can do everything with your own machine, and you sho
 Only when you need to render for paper submission, since rendering is a time-consuming and heavy work, it is better to utilize lab machines (Ubuntu) to avoid crash on your own machine or disturbing your other works. 
 We can talk more on the details about how to transfer your work to lab machines later.
 -->
-
