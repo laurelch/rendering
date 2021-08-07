@@ -10,8 +10,9 @@
   - [Blender](#blender)
   - [RenderMan](#renderman)
   - [Houdini](#houdini)
+- [Q&A](#qa): common questions
 - [Resources](#resources): other useful resources
-- [Papers](#papers): papers using this rendering process 
+- [Publications](#publications): examples using this rendering process 
 
 ## Get Started
 - Softwares or tools recommended:
@@ -113,19 +114,18 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
   - [Learning Houdini](https://www.sidefx.com/learn/getting_started/): official SideFX get started tutorial
 - Check out how I use houdini for [meshing](houdini-particles-to-mesh.md)
 
-<!-- TODO: ### Others
-- Check out my [experiences](experiences.md): get inspired by my stories with content creation softwares
-  - [Maya](experiences.md#maya-)
-  - [RenderMan](experiences.md#renderman-)
-  - [Blender](experiences.md#blender-) -->
+## Q&A
+1. **Q**: What OS should I use? 
+   <br> **A**: You can use the OS that you're most comfortable with to get started. Most softwares support Windows, Mac OS, and Linux. Since rendering is a time-consuming and expensive work, when you need to render animation, you may want to utilize other machine(s) with a different OS. We will add more about transferring contents between different OS.
 
 ## Resources 
 - Bash scripting cheatsheet: [devhints.io/bash](https://devhints.io/bash)
 - Python for Maya commands: [Docs (2017 version)](https://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/CommandsPython)
 - Udemy: 3D and Animation [courses](https://www.udemy.com/courses/design/3d-and-animation/), high-quality with regular discounts
 
-## Papers
-Papers using the rendering process, latest paper first
+## Publications
+Publications using the rendering process:
+<br>(latest publication first)
 - **A Unified Second-Order Accurate in Time MPM Formulation for Simulating Viscoelastic Liquids with Phase Change**
   <br> Haozhe Su*, Tao Xue*, Chengguizi Han, Chenfanfu Jiang and Mridul Aanjaneya (*Joint first authors)
   <br> _ACM Transactions on Graphics_, (SIGGRAPH proceedings), 40, 4, 119:1-18, (2021)
@@ -139,10 +139,4 @@ Papers using the rendering process, latest paper first
 - **An Efficient Geometric Multigrid Solver for Viscous Liquids**
   <br> Mridul Aanjaneya*, Chengguizi Han, Ryan Goldade and Christopher Batty (*Lead and supervising author)
   <br> _Proceedings of the ACM in Computer Graphics and Interactive Techniques_, (SCA proceedings), 2, 2, 14:1-21, (2019)
-<!-- TODO: Q&A
-One question: I currently have windows 10, should I download Ubuntu or is it ok to do everything in windows?
 
-Answer:General speaking you can do everything with your own machine, and you should get started with your own machine. 
-Only when you need to render for paper submission, since rendering is a time-consuming and heavy work, it is better to utilize lab machines (Ubuntu) to avoid crash on your own machine or disturbing your other works. 
-We can talk more on the details about how to transfer your work to lab machines later.
--->
