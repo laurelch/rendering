@@ -10,6 +10,7 @@
   - [Blender](#blender)
   - [RenderMan](#renderman)
   - [Houdini](#houdini)
+    - convert particles to mesh [guide](houdini-particles-to-mesh.md)
 - [Q&A](#qa): common questions
 - [Resources](#resources): other useful resources
 - [Publications](#publications): examples using this rendering process 
@@ -97,7 +98,6 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
 - Download at https://www.blender.org/
 - Recommended tutorial:
   - [Grant Abbitt](https://www.youtube.com/channel/UCZFUrFoqvqlN8seaAeEwjlw) @YouTube, and his complete beginners [guide](https://www.youtube.com/watch?v=wNQYhbvTJi8)
-  - Many other resources @YouTube
 
 ### RenderMan
 - Free non-commercial license available, renews every 3 months
@@ -112,7 +112,7 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
 - Many versions, including free and indie version, avaialble at https://www.sidefx.com/buy/
 - Recommended tutorial:
   - [Learning Houdini](https://www.sidefx.com/learn/getting_started/): official SideFX get started tutorial
-- Check out how I use houdini for [meshing](houdini-particles-to-mesh.md)
+- Check out options to use houdini for [meshing](houdini-particles-to-mesh.md)
 
 ## Q&A
 1. **Q**: What OS should I use? 
