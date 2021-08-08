@@ -29,18 +29,18 @@
 
 - Add prefix in batch
 ```
-ls | xargs -I {} mv {} PRE_{}
+ls | xargs -I {} mv {} <prefix>{}
 ```
 
 - Add suffix in batch
 
 ```
-ls | xargs -I {} mv {} {}_SUF
+ls | xargs -I {} mv {} {}<suffix>
 ```
 
 - Remove prefix (for PNG files)
 ```
-for f in *.png; do mv "$f" "${f#PREFIX_}"; done;
+for f in *.png; do mv "$f" "${f#<prefix>}"; done;
 ```
 ## Post-processing
 - Source mitsuba configuration file
