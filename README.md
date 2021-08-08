@@ -136,7 +136,10 @@ Publications using the rendering process:
 - **A First Principles Approach for Data-Efficient System Identification of Spring-Rod Systems via Differentiable Physics Engines**
    <br> Kun Wang, Mridul Aanjaneya and Kostas Bekris
    <br> _Proceedings of Machine Learning Research_, (2nd Annual Conference on Learning for Dynamics and Control), 120:1-15, (2020)
+    
+    ![Spring-Rod](sourceimages/superball.png)
 - **An Efficient Geometric Multigrid Solver for Viscous Liquids**
   <br> Mridul Aanjaneya*, Chengguizi Han, Ryan Goldade and Christopher Batty (*Lead and supervising author)
   <br> _Proceedings of the ACM in Computer Graphics and Interactive Techniques_, (SCA proceedings), 2, 2, 14:1-21, (2019)
-
+  
+    ![SCA2019](sourceimages/sca19.png)
