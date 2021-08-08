@@ -59,7 +59,7 @@ _Windows_
 FOR /R %a IN (*.exr) DO convert "%~a" "%~dpna.png"
 ```
 
-- Crop file
+- Crop file, \<target-width> x \<target-height> + \<left> + \<top>
 ```
 convert input.png -crop 1280x1024+10+10 output.png done
 ```
