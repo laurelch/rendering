@@ -1,6 +1,21 @@
 # Houdini Particles to Mesh
+## Naming of Files in Houdini
+When saving or reading files, use $F to represent frame numbers, and $F4 to represent frame numbers in 4 digits.
+
+For example:
+  
+    frame_$F.obj
+    
+    => frame_0.obj, frame_10.obj, frame_100.obj
+or
+
+    frame_$F4.obj
+    
+    => frame_0000.obj, frame_0010.obj, frame_0100.obj
+
+## Procedures to Convert Particles to Mesh
 _Connect following nodes in sequence_
-## Option 1
+### Option 1
 - **File** geometry node
   - reads **OBJ file** with particles coordinates as vertices
 - **VDB from Particles** geometry node
@@ -10,9 +25,9 @@ _Connect following nodes in sequence_
 - **File** geometry node
   - writes file
 
-## Option 2
+### Option 2
 - **File** geometry node
-  - reads **OBJ file** with vertices
+  - reads **OBJ file** with particles coordinates as vertices
 - **Particle Fluid Surface** geometry node
 - **File** geometry node
   - writes file
