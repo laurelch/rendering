@@ -129,17 +129,25 @@ Publications using the rendering process:
 - **A Unified Second-Order Accurate in Time MPM Formulation for Simulating Viscoelastic Liquids with Phase Change**
   <br> Haozhe Su*, Tao Xue*, Chengguizi Han, Chenfanfu Jiang and Mridul Aanjaneya (*Joint first authors)
   <br> _ACM Transactions on Graphics_, (SIGGRAPH proceedings), 40, 4, 119:1-18, (2021)
-  <br> [SIGGRAPH Technical Papers Video Trailer, 2:44](https://youtu.be/Ros7ZXqLbFg?t=164)
+  
+  ![MPM2021](sourceimages/s21.png)
+  <br> [Paper page](https://orionquest.github.io/papers/USOSVLPC/paper.html): Paper | BibTeX | Video | Code
+  <br> Featured in [SIGGRAPH Technical Papers Video Trailer](https://youtu.be/Ros7ZXqLbFg?t=164), starting at 2:44
 - **A Novel Discretization and Numerical Solver for Non-Fourier Diffusion**
   <br> Tao Xue*, Haozhe Su*, Chengguizi Han, Chenfanfu Jiang and Mridul Aanjaneya (*Joint first authors)
   <br> _ACM Transactions on Graphics_, (SIGGRAPH Asia proceedings), 39, 6, 178:1-14, (2020)
+
+    ![Non-Fourier Diffusion-2020](sourceimages/sa20.png)
+  [Paper page](https://orionquest.github.io/papers/NDNSNFD/paper.html): Paper | BibTeX | Video | Code
 - **A First Principles Approach for Data-Efficient System Identification of Spring-Rod Systems via Differentiable Physics Engines**
    <br> Kun Wang, Mridul Aanjaneya and Kostas Bekris
    <br> _Proceedings of Machine Learning Research_, (2nd Annual Conference on Learning for Dynamics and Control), 120:1-15, (2020)
-    
-    ![Spring-Rod](sourceimages/superball.png)
+
+    ![Spring-Rod](sourceimages/superball-3.png)
+   <br>[Paper page](https://orionquest.github.io/papers/FPADSISRS/paper.html): Paper | BibTeX | Video
 - **An Efficient Geometric Multigrid Solver for Viscous Liquids**
   <br> Mridul Aanjaneya*, Chengguizi Han, Ryan Goldade and Christopher Batty (*Lead and supervising author)
   <br> _Proceedings of the ACM in Computer Graphics and Interactive Techniques_, (SCA proceedings), 2, 2, 14:1-21, (2019)
   
     ![SCA2019](sourceimages/sca19.png)
+  <br>[Paper page](https://orionquest.github.io/papers/EGMVL/paper.html): Paper | BibTeX | Video
