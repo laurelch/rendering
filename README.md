@@ -1,9 +1,25 @@
 # **Rendering Tools and Utilities**
+Jump to
+- [Table of Contents](#contents)
+- [Maya, Blender, RenderMan, Houdini](#content-creation-softwares)
+- [Publications](#publications)
+
+![teaser](sourceimages/teaser.png)
+Figure: A collection of renderings from the [publications](#publications).
+## Preface
+This is a growing collection of tools used to generate offline renderings and animation for research in Computer Graphics at [Laboratory for Interactive Virtual Environments (**LIVE**)](https://orionquest.github.io/research.html). **LIVE** is directed by [Mridul Aanjaneya](https://orionquest.github.io/index.html) at Department of Computer Science, Rutgers University. This collection is created and maintained by [Chengguizi Han](https://laurelch.github.io/) from **LIVE**. Any questions and suggestions are welcome.
+
+Huge thanks to all other contributors to the [publications](#publications):
+
+- The members (and alumni) of **LIVE**: Dr. Tao Xue, [Haozhe Su](https://soldierdown.github.io/projects/).
+- [Prof. Chenfanfu Jiang](https://www.math.ucla.edu/~cffjiang/) at UCLA Mathematics.
+- Kun Wang and [Prof. Kostas Bekris](https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/) at Rutgers Robotics PRACSYS Group.
+
 ## Contents
 - [Get Started](#get-started): introduction to softwares, tools, and general rendering process
 - [Bash Commands](#bash-commands): commonly used bash commands
 - [Bash Scripts](#bash-scripts): commonly used bash scripts that takes inputs
-- [Content Creation Softwares](#content-creation-softwares): download and recommended tutorials
+- [Content Creation Softwares](#content-creation-softwares): download pages and recommended tutorials
   - [Maya](#maya):
     - Python for Maya [cheat-sheet](py-maya-cheat-sheet.md)
     - install Maya on Ubuntu [guide](maya-install-ubuntu.md)
@@ -13,7 +29,7 @@
     - convert particles to mesh [guide](houdini-particles-to-mesh.md)
 - [Q&A](#qa): common questions
 - [Resources](#resources): other useful resources
-- [Publications](#publications): examples using this rendering process 
+- [Publications](#publications): more examples using this rendering process
 
 ## Get Started
 - Softwares or tools recommended:
