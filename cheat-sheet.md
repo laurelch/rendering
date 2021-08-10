@@ -128,6 +128,7 @@ du -hs * | sort -h
 ```
 find /path/to/find -name <filename>
 ```
+
 - Find a directory
 ```
 find /path/to/find -name <directory-name> -type d
@@ -139,6 +140,20 @@ find . -name '*.exr' -delete
 ```
 
 ## Renew RenderMan
+- Render RIB file with RenderMan
+```
+prman -progress <file>.rib
+```
+
+To view more details
+```
+prman -progress -loglevel 4 <file>.rib
+```
+
+- Check RenderMan version
+```
+prman --version
+```
 
 - Renew RenderMan license on Linux, after filling the survey online, without installing newest version
 ```
