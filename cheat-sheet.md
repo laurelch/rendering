@@ -2,7 +2,9 @@
 ## Contents
 - [Multiplexer](#multiplexer): peform long-running task on a remote machine
 - [Filename Manipulation](#filename-manipulation): batch edit filenames
-- [Post-processing](#post-processing): convert EXR to PNG, crop files
+- [Post-processing](#post-processing): after obtaining rendering file
+  - [Convert EXR to PNG](#convert-exr-to-png): with Mitsuba renderer utilities
+  - [Image Manipulation](#image-manipulation): resize, crop, append
 - [Video](#video): convert PNG sequence to video
 - [Storage](#storage): check storage status and file sizes
 - [Renew RenderMan](#renew-renderman): renew RenderMan on Ubuntu
@@ -43,6 +45,7 @@ ls | xargs -I {} mv {} {}<suffix>
 for f in *.png; do mv "$f" "${f#<prefix>}"; done;
 ```
 ## Post-processing
+### Convert EXR to PNG
 - Source mitsuba configuration file
 ```
 source /path/to/mitsuba/setpath.sh
@@ -59,9 +62,15 @@ _Windows_
 FOR /R %a IN (*.exr) DO convert "%~a" "%~dpna.png"
 ```
 
+### Image Manipulation
+- Resize file, \<target-width> x \<target-height>
+```
+convert input.png -resize 1280x1024 resize.png
+```
+
 - Crop file, \<target-width> x \<target-height> + \<left> + \<top>
 ```
-convert input.png -crop 1280x1024+10+10 output.png done
+convert input.png -crop 1280x1024+10+10 output.png
 ```
 
 - Append file without gap horizontally and vertically
@@ -128,6 +137,7 @@ du -hs * | sort -h
 ```
 find /path/to/find -name <filename>
 ```
+
 - Find a directory
 ```
 find /path/to/find -name <directory-name> -type d
@@ -139,6 +149,20 @@ find . -name '*.exr' -delete
 ```
 
 ## Renew RenderMan
+- Render RIB file with RenderMan
+```
+prman -progress <file>.rib
+```
+
+To view more details
+```
+prman -progress -loglevel 4 <file>.rib
+```
+
+- Check RenderMan version
+```
+prman --version
+```
 
 - Renew RenderMan license on Linux, after filling the survey online, without installing newest version
 ```
