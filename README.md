@@ -167,3 +167,16 @@ Publications using the rendering process:
   
     ![SCA2019](sourceimages/sca19.png)
   <br>[Paper page](https://orionquest.github.io/papers/EGMVL/paper.html): Paper | BibTeX | Video
+
+<!--
+TODO:
+1. add python code to convert TXT (files with particle coordinates) to OBJ/RIB
+   1. sphere size
+   2. color
+   3. camera positions
+2. add useful shaders in RIB format
+   AttributeBegin Bxdf "PxrSurface" "paper" "float diffuseGain" [1] "color diffuseColor" [0.751 0.751 0.751] "float diffuseRoughness" [0.4] AttributeEnd
+3. process to use RenderMan in Maya
+   1. Render Settings
+4. 3=> detailed whole process
+-->
