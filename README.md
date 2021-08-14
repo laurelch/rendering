@@ -19,6 +19,7 @@ Huge thanks to all other contributors to the [publications](#publications):
 - [Get Started](#get-started): introduction to softwares, tools, and general rendering process
 - [Bash Commands](#bash-commands): commonly used bash commands
 - [Bash Scripts](#bash-scripts): commonly used bash scripts that takes inputs
+- [Python Scripts](#python-scripts): uses python from shell
 - [Content Creation Softwares](#content-creation-softwares): download pages and recommended tutorials
   - [Maya](#maya):
     - Python for Maya [cheat-sheet](py-maya-cheat-sheet.md)
@@ -92,6 +93,9 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
   - [makeVideo.sh](bash/makeVideo.sh): make video for a given folder with given name
   - [replace.sh](bash/replace.sh): replace strings for all (RIB) files in a folder
   - [vcrop.sh](bash/vcrop.sh): crop left and right of an image with target width
+
+## Python Scripts
+- [render.py](python/render.py): specifies dataset and batch render RIB files
 
 ## Content Creation Softwares
 ### Maya
