@@ -1,3 +1,4 @@
+# render a batch of RIB files from a directory
 import sys,subprocess
 
 frames=[] # render specific frames

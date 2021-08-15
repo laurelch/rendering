@@ -19,7 +19,9 @@ Huge thanks to all other contributors to the [publications](#publications):
 - [Get Started](#get-started): introduction to softwares, tools, and general rendering process
 - [Bash Commands](#bash-commands): commonly used bash commands
 - [Bash Scripts](#bash-scripts): commonly used bash scripts that takes inputs
-- [Python Scripts](#python-scripts): uses python from shell
+- [Python Scripts](#python-scripts): with python from shell
+  - [render.py](python/render.py): batch render RIB files
+  - [convert.py](python/convert.py): convert particles positions in TXT to OBJ/RIB
 - [Content Creation Softwares](#content-creation-softwares): download pages and recommended tutorials
   - [Maya](#maya):
     - Python for Maya [cheat-sheet](py-maya-cheat-sheet.md)
@@ -74,7 +76,6 @@ Huge thanks to all other contributors to the [publications](#publications):
      - with built-in renderer (e.g Arnold in Maya, Cycles in Blender)
      - with plug-in renderer (e.g RenderMan in Maya or Blender)
      - **with standalone renderer** (e.g. RenderMan): export RIB files from Maya, then render with bash commands and Python
-    <!-- - convert particles to mesh, [quick guide](houdini-particles-to-mesh.md) -->
 
 ## Bash Commands
 - Check out [cheat-sheet](cheat-sheet.md) for commonly used commands:
@@ -95,7 +96,8 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
   - [vcrop.sh](bash/vcrop.sh): crop left and right of an image with target width
 
 ## Python Scripts
-- [render.py](python/render.py): specifies dataset and batch render RIB files
+- [render.py](python/render.py): batch render RIB files
+- [convert.py](python/convert.py): convert particles positions in TXT to OBJ/RIB
 
 ## Content Creation Softwares
 ### Maya
