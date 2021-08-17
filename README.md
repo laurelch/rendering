@@ -107,13 +107,16 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
 - Recommended tutorial:
   - [Intro to Maya Series](https://www.youtube.com/watch?v=LJLo6MafPVM) by Maya Learning Channel @YouTube
   - Maya 2019 Fundamentals @PluralSight, [preview](https://www.youtube.com/watch?v=ez6GSrMtFYI)
+___
+- To install Maya on **Ubuntu**, check this [install guide](maya-install-ubuntu.md) that worked for me
 - Check out my [cheat-sheet](py-maya-cheat-sheet.md) for **Python for Maya** :
   - [Import](py-maya-cheat-sheet.md#import)
   - [Objects](py-maya-cheat-sheet.md#objects)
   - [Transformation](py-maya-cheat-sheet.md#transformation)
   - [Shading](py-maya-cheat-sheet.md#shading)
   - [Animation](py-maya-cheat-sheet.md#animation)
-- To install Maya on **Ubuntu**, check this [install guide](maya-install-ubuntu.md) that worked for me
+- Check out my [scripts](maya-scripts/) to use **MEL** in Maya:
+  - [Visibility](maya-scripts/visibility.mel): display a sequence of objects
 
 ### Blender
 - Free, open-source, handy, and beginner-friendy
