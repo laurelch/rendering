@@ -24,8 +24,9 @@ Huge thanks to all other contributors to the [publications](#publications):
   - [convert.py](python/convert.py): convert particles positions in TXT to OBJ/RIB
 - [Content Creation Softwares](#content-creation-softwares): download pages and recommended tutorials
   - [Maya](#maya):
-    - Python for Maya [cheat-sheet](py-maya-cheat-sheet.md)
+    - Python for Maya [cheat-sheet](maya-scripts/py-maya-cheat-sheet.md)
     - install Maya on Ubuntu [guide](maya-install-ubuntu.md)
+    - MEL [scripts](maya-scripts/)
   - [Blender](#blender)
   - [RenderMan](#renderman)
   - [Houdini](#houdini)
@@ -46,7 +47,7 @@ Huge thanks to all other contributors to the [publications](#publications):
         prman -progress <file-name>.rib
         ```
   - **Python**
-    - **Python for Maya** ([cheat-sheet](py-maya-cheat-sheet.md)): batch modification in Maya
+    - **Python for Maya** ([cheat-sheet](maya-scripts/py-maya-cheat-sheet.md)): batch modification in Maya
     - batch rendering with RIB files
   - Houdini
     - convert particles to mesh
@@ -109,12 +110,12 @@ Check out [bash](bash) folder for bash scripts (**.sh** files for Linux, **.bat*
   - Maya 2019 Fundamentals @PluralSight, [preview](https://www.youtube.com/watch?v=ez6GSrMtFYI)
 ___
 - To install Maya on **Ubuntu**, check this [install guide](maya-install-ubuntu.md) that worked for me
-- Check out my [cheat-sheet](py-maya-cheat-sheet.md) for **Python for Maya** :
-  - [Import](py-maya-cheat-sheet.md#import)
-  - [Objects](py-maya-cheat-sheet.md#objects)
-  - [Transformation](py-maya-cheat-sheet.md#transformation)
-  - [Shading](py-maya-cheat-sheet.md#shading)
-  - [Animation](py-maya-cheat-sheet.md#animation)
+- Check out my [cheat-sheet](maya-scripts/py-maya-cheat-sheet.md) for **Python for Maya** :
+  - [Import](maya-scripts/py-maya-cheat-sheet.md#import)
+  - [Objects](maya-scripts/py-maya-cheat-sheet.md#objects)
+  - [Transformation](maya-scripts/py-maya-cheat-sheet.md#transformation)
+  - [Shading](maya-scripts/py-maya-cheat-sheet.md#shading)
+  - [Animation](maya-scripts/py-maya-cheat-sheet.md#animation)
 - Check out my [scripts](maya-scripts/) to use **MEL** in Maya:
   - [Visibility](maya-scripts/visibility.mel): display a sequence of objects
 
