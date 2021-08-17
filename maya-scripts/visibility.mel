@@ -1,0 +1,40 @@
+int $startTime=1;
+int $endTime=10;
+for ($i = $startTime; $i <= $endTime; $i=$i+1)
+{
+    currentTime 0;
+    // object name format: mesh_1:Mesh, mesh_10:Mesh
+    string $Current_Mesh = "mesh_"+$i+":Mesh";
+    string $Mesh_Vis = $Current_Mesh+".visibility";
+    
+    // set mesh invisible at frame 0
+    setAttr $Mesh_Vis 0;
+    string $Mesh_V = $Current_Mesh + ".v";
+    if( `getAttr -k $Mesh_V`||`getAttr -channelBox $Mesh_V` )setKeyframe $Mesh_V;
+    currentTime ($i);
+    print($Current_Mesh+"\n");
+    
+    if(`objExists $Current_Mesh`) {
+        select -r $Current_Mesh;
+
+        // apply shaderSG to object
+        sets -e -forceElement shaderSG;
+
+        // [example] modify rotation
+        // string $Rotate_Z = $Current_Mesh+".rotateZ";
+        // setAttr $Rotate_Z 0;
+
+        // smooth the mesh
+        // polySmooth  -mth 1 -sdt 2 -ovb 1 -ofb 3 -ofc 0 -ost 0 -ocr 0 -dv 1 -bnr 1 -c 1 -kb 1 -ksb 1 -khe 0 -kt 1 -kmb 1 -suv 1 -peh 0 -sl 1 -dpe 1 -ps 0.1 -ro 1 -ch 1 $Current_Mesh;
+
+        // set mesh visible at frame i
+        $Mesh_Vis = $Current_Mesh+".visibility";
+        setAttr $Mesh_Vis 1;
+        if( `getAttr -k $Mesh_V`||`getAttr -channelBox $Mesh_V` )setKeyframe $Mesh_V;
+
+        // set mesh invisible at frame (i+1)
+        currentTime ($i + 1);
+        setAttr $Mesh_Vis 0;
+        if( `getAttr -k $Mesh_V`||`getAttr -channelBox $Mesh_V` )setKeyframe $Mesh_V;
+    }
+}
