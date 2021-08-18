@@ -116,8 +116,9 @@ ___
   - [Transformation](maya-scripts/py-maya-cheat-sheet.md#transformation)
   - [Shading](maya-scripts/py-maya-cheat-sheet.md#shading)
   - [Animation](maya-scripts/py-maya-cheat-sheet.md#animation)
-- Check out my [scripts](maya-scripts/) to use **MEL** in Maya:
-  - [Visibility](maya-scripts/visibility.mel): display a sequence of objects
+- Check out my [scripts](maya-scripts/) to use **MEL** or **Python** in Maya:
+  - [animation.mel](maya-scripts/animation.mel): animate a continuous sequence of objects with visibility
+  - [animation.py](maya-scripts/animation.py): animate one (selected) object according to a TXT file
 
 ### Blender
 - Free, open-source, handy, and beginner-friendy

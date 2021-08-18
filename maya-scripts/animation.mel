@@ -1,3 +1,6 @@
+// Set visibility for each object in a sequence
+// of objects according to the order
+
 int $startTime=1;
 int $endTime=10;
 for ($i = $startTime; $i <= $endTime; $i=$i+1)
