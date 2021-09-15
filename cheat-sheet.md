@@ -8,6 +8,7 @@
 - [Video](#video): convert PNG sequence to video
 - [Storage](#storage): check storage status and file sizes
 - [Renew RenderMan](#renew-renderman): renew RenderMan on Ubuntu
+- [Start Maya](#start-maya): start Maya from command line
 
 ## Multiplexer
 - Use $ screen to keep command running in background
@@ -167,4 +168,10 @@ prman --version
 - Renew RenderMan license on Linux, after filling the survey online, without installing newest version
 ```
 sudo /opt/pixar/RenderManProServer-<version>/bin/LicenseApp 
+```
+
+## Start Maya
+- May be shortened
+```
+/usr/autodesk/maya2020/bin/maya
 ```
