@@ -26,7 +26,7 @@ Huge thanks to all other contributors to the [publications](#publications):
   - [Maya](#maya):
     - Python for Maya [cheat-sheet](maya-scripts/py-maya-cheat-sheet.md)
     - install Maya on Ubuntu [guide](maya-install-ubuntu.md)
-    - MEL [scripts](maya-scripts/)
+    - MEL or Python for Maya [scripts](maya-scripts/)
   - [Blender](#blender)
   - [RenderMan](#renderman)
   - [Houdini](#houdini)
@@ -57,23 +57,31 @@ Huge thanks to all other contributors to the [publications](#publications):
       mtsutil tonemap -t *.exr
       ```
 - General Process Description
-  1. **Modeling**
-     - low-poly modeling
-     - meshing from particles, with [Houdini](#houdini)
-     - find free 3D models at [turbosquid](https://www.turbosquid.com/), [sketchfab](https://sketchfab.com/feed)
-     - find and follow tutorial for 3D modeling
-  2. UV Editing *(optional)*
-  3. **Shading** (Textures, Materials)
-     - use renderer's shading node (e.g [PxrSurface](https://rmanwiki.pixar.com/display/REN24/PxrSurface) with RenderMan)
-     - find free textures at [textures.com](https://www.textures.com/library)
-  4. Lighting
-     - use renderer's lighting node (e.g [PxrDomeLight](https://rmanwiki.pixar.com/display/REN24/PxrDomeLight) with RenderMan)
-  5. Camera
-     - set aspect ratio, usually 1240x1024
-  6. Animation
-     - with built-in tools
-     - **with data**, using Python (for Maya)
-  7. Rendering
+  - Simulation: prepare data
+  - Planning
+    - Features: know the strength and purpose of the data, that determines the way of representation:
+      1. close-up look or zoomed-out view
+      2. particles or meshed objects
+      3. simple or detailed scene
+    - Environment: find a rational and interesting scene with the data
+  - Set up the environment in 3D softwares
+    1. **Modeling**
+       - low-poly modeling
+       - meshing from particles, with [Houdini](#houdini)
+       - find free 3D models at [turbosquid](https://www.turbosquid.com/), [sketchfab](https://sketchfab.com/feed)
+       - find and follow tutorial for 3D modeling
+    2. UV Editing (optional)
+    3. **Shading** (Textures, Materials)
+       - use renderer's shading node (e.g [PxrSurface](https://rmanwiki.pixar.com/display/REN24/PxrSurface) with RenderMan)
+       - find free textures at [textures.com](https://www.textures.com/library)
+    4. Lighting
+       - use renderer's lighting node (e.g [PxrDomeLight](https://rmanwiki.pixar.com/display/REN24/PxrDomeLight) with RenderMan)
+    5. Camera
+       - set aspect ratio, usually 1240x1024
+    6. Animation
+       - with built-in tools
+       - **with data**, using Python (for Maya)
+  - Rendering
      - with built-in renderer (e.g Arnold in Maya, Cycles in Blender)
      - with plug-in renderer (e.g RenderMan in Maya or Blender)
      - **with standalone renderer** (e.g. RenderMan): export RIB files from Maya, then render with bash commands and Python
