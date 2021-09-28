@@ -165,7 +165,9 @@ prman -progress -loglevel 4 <file>.rib
 prman --version
 ```
 
-- Renew RenderMan license on Linux, after filling the survey online, without installing newest version
+- Renew RenderMan license on Linux
+
+Note: will get license with the latest available version
 ```
 sudo /opt/pixar/RenderManProServer-<version>/bin/LicenseApp 
 ```
