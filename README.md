@@ -135,12 +135,14 @@ ___
   - [Grant Abbitt](https://www.youtube.com/channel/UCZFUrFoqvqlN8seaAeEwjlw) @YouTube, and his complete beginners [guide](https://www.youtube.com/watch?v=wNQYhbvTJi8)
 
 ### RenderMan
-- Free non-commercial license available, renews every 3 months
+- Free non-commercial license available, renew required every 3 months
 - Download at https://renderman.pixar.com/store
 - Recommended tutorial:
   - [RenderMan Docs](https://rmanwiki.pixar.com/display/REN24/RenderMan): official RenderMan Docs, installation guides, plugins guides
   - [Learn RenderMan](https://renderman.pixar.com/learn): official RenderMan learning resources
   - [Small Robot Studio](https://www.youtube.com/channel/UCvRPmhwzn2pFdLes0vcTeJQ) @YouTube: learn specific RenderMan shading features
+___
+- To install RenderMan and RenderMan for Maya on **Ubuntu**, check this [install guide](renderman-install-ubuntu.md) that worked for me
 
 ### Houdini
 - Procedural generation software, commonly used for visual effects

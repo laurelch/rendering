@@ -1,5 +1,3 @@
-
-
 # Installing Maya 2020 on Ubuntu
 
 
