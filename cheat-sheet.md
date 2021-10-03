@@ -69,6 +69,11 @@ FOR /R %a IN (*.exr) DO convert "%~a" "%~dpna.png"
 convert input.png -resize 1280x1024 resize.png
 ```
 
+- Resize file by scaling percentage
+```
+convert input.png -resize 50% half_input.png
+```
+
 - Crop file, \<target-width> x \<target-height> + \<left> + \<top>
 ```
 convert input.png -crop 1280x1024+10+10 output.png
