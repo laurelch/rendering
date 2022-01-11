@@ -182,3 +182,10 @@ sudo /opt/pixar/RenderManProServer-<version>/bin/LicenseApp
 ```
 /usr/autodesk/maya2020/bin/maya
 ```
+
+## Basic PxrSurface in RIB
+```
+AttributeBegin
+  Bxdf "PxrSurface" "shader_name" "float diffuseGain" [1] "color diffuseColor" [1.0 1.0 1.0] "string __materialid" ["shader_name_SG"]
+AttributeEnd
+```
