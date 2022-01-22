@@ -9,6 +9,7 @@
 - [Storage](#storage): check storage status and file sizes
 - [Renew RenderMan](#renew-renderman): renew RenderMan on Ubuntu
 - [Start Maya](#start-maya): start Maya from command line
+- [Basic PxrSurface](#basic-pxrsurface): basic shader in RenderMan RIB file
 
 ## Multiplexer
 - Use $ screen to keep command running in background
@@ -67,6 +68,11 @@ FOR /R %a IN (*.exr) DO convert "%~a" "%~dpna.png"
 - Resize file, \<target-width> x \<target-height>
 ```
 convert input.png -resize 1280x1024 resize.png
+```
+
+- Resize file, with \<target-height> only
+```
+convert input.png -resize x1024 resize.png
 ```
 
 - Resize (or scale) file by scaling percentage
@@ -183,7 +189,8 @@ sudo /opt/pixar/RenderManProServer-<version>/bin/LicenseApp
 /usr/autodesk/maya2020/bin/maya
 ```
 
-## Basic PxrSurface in RIB
+## Basic PxrSurface
+in RIB (RenderMan file)
 ```
 AttributeBegin
   Bxdf "PxrSurface" "shader_name" "float diffuseGain" [1] "color diffuseColor" [1.0 1.0 1.0] "string __materialid" ["shader_name_SG"]
