@@ -125,14 +125,20 @@ ___
   - [Shading](maya-scripts/py-maya-cheat-sheet.md#shading)
   - [Animation](maya-scripts/py-maya-cheat-sheet.md#animation)
 - Check out my [scripts](maya-scripts/) to use **MEL** or **Python** in Maya:
-  - [animation.mel](maya-scripts/animation.mel): animate a continuous sequence of objects with visibility
+  - [animation.mel](maya-scripts/animation.mel): animate a sequence of objects by hiding and displaying them in order
   - [animation.py](maya-scripts/animation.py): animate one (selected) object according to a TXT file
 
 ### Blender
 - Free, open-source, handy, and beginner-friendy
 - Download at https://www.blender.org/
 - Recommended tutorial:
+  - [Blender Guru](https://www.youtube.com/c/BlenderGuruOfficial) @YouTube, and his newest Blender 3.0 beginner donut [tutorial](https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD)
   - [Grant Abbitt](https://www.youtube.com/channel/UCZFUrFoqvqlN8seaAeEwjlw) @YouTube, and his complete beginners [guide](https://www.youtube.com/watch?v=wNQYhbvTJi8)
+___
+- Check out my [scripts](blender-scripts) to use **Python** in Blender:
+  - [import-batch.py](blender-scripts/import-batch.py): import a sequence of obj files
+  - [animate.py](blender-scripts/animate.py): animate a sequence of objects by hiding and displaying them in order
+  - [shader.py](blender-scripts/shader.py): apply shader to a sequence of objects
 
 ### RenderMan
 - Free non-commercial license available, renew required every 3 months
