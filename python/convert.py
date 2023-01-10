@@ -3,8 +3,16 @@
 import sys
 import os.path
 
+def txtToObj(x,y,z):
+    """
+    Returns a string with particle position in OBJ format.
+    """
+    return "v %f %f %f\n"%(x,y,z)
+
 def txtToRib(x,y,z,camera,shader_string):
     """
+    Returns a string with particle information in RIB format.
+    ----
     a particle in RIB example:
     AttributeBegin
         Bxdf "PxrSurface" "particles" "string __materialid" ["snowSG"]
@@ -21,10 +29,12 @@ def txtToRib(x,y,z,camera,shader_string):
     line_5='AttributeEnd\n'
     return line_1+line_2+line_3+line_4+line_5
 
-def txtToObj(x,y,z):
-    return "v %f %f %f\n"%(x,y,z)
 
 def write(input_file,output_file,camera):
+    """
+    Creates a new file in OBJ or RIB format.
+    Calls txtToObj() or txtToRib().
+    """
     shader_string="defaultSG"
     f_in=open(input_file,'r')
     f_out=open(output_file,'w')
@@ -55,6 +65,10 @@ def input_format(filename):
     return print("Usage: %s <directory> <rib or obj> <start frame> <end frame>"%filename)
 
 def main():
+    """
+    Iterates through simulation data and create render-ready files in sequence.
+    The output file format is 'frame_%04d.obj' or 'frame_%04d.rib'.
+    """
     camera=[1,1,1] #camera position
 
     if len(sys.argv)!=5:
