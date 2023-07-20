@@ -9,7 +9,7 @@ max_frame=100
 def newMaterial(id):
     mat=bpy.data.materials.get(id)
     if mat is None:
-        mat=bpy.data.material(name=id)
+        mat=bpy.data.materials.new(name=id)
     mat.use_nodes=True
     if mat.node_tree:
         mat.node_tree.links.clear()
@@ -29,7 +29,9 @@ def newShader(id,r,g,b,specular=0,roughness=0,transmission=0):
     links.new(shader.outputs[0],output.inputs[0])
     return mat
 
-mat=newShader("shader_test",0.538,0.8,0.458,specular=0.1,roughness=0.3,transmission=1)
+# Shader
+mat=newShader("shader_test",1,1,1,specular=0.1,roughness=0.3,transmission=1)
+
 for i in range(1,max_frame+1):
     mesh_name='mesh_%04d'%i
     obj=bpy.context.scene.objects[mesh_name]
